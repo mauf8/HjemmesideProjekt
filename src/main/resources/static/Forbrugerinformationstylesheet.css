@@ -1,0 +1,81 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: forestgreen;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* skifter farve når du holder musen over en a felterne */
+li a:hover {
+    background-color: #111;
+}
+
+
+#headerNavigation{
+    width: 100%;
+    height: 150px;
+
+}
+
+#h1overskrift{
+    margin-top: -100px;
+    padding-top: -100px;
+}
+
+#forbrugertext{
+    width: 40%;
+    height: 100%;
+    margin-top: -100px;
+}
+
+
+#fridge{
+    margin-top: -400px;
+    float: right;
+    margin-bottom: 70px;
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.footerOverskift{
+    float: left;
+    color: #fff;
+    width: 33%;
+    box-sizing: border-box;
+
+}
+
+
+#madspildLink{
+    width: 100%;
+    height: 200px;
+    margin-bottom: -150px;
+
+
+}
+#myfridgefood{
+    padding-top: 20px;
+}

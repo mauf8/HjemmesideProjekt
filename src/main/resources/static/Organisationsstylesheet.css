@@ -1,0 +1,77 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: forestgreen;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* skifter farve når du holder musen over en a felterne */
+li a:hover {
+    background-color: #111;
+}
+
+
+#headerNavigation{
+    width: 100%;
+    height: 150px;
+
+}
+
+#h1overskrift{
+    margin-top: -100px;
+    padding-top: -100px;
+}
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.footerOverskift{
+    float: left;
+    color: #fff;
+    width: 33%;
+    box-sizing: border-box;
+
+}
+#h1overskrift{
+    margin-top: -80px;
+}
+
+#Organisationsbillede1{
+    margin-top: -550px;
+    float: right;
+    width:40%;
+    height:40%;
+    margin-right: 50px;
+}
+
+#tekst\+billede{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 100px;
+
+}
+
+#fødevarestylrelsenfoto{
+    margin-bottom: -100px;
+}

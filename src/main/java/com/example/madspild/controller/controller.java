@@ -14,18 +14,16 @@ public class controller {
     return "home";
   }
 
-  @GetMapping("/virksomhedsinformation")
-  public String virksomhedsinformation(){
-    return "virksomhedsinformation";
-  }
-
 
   @GetMapping("/organisationsinformation")
   public String organisationsinformation(){
     return "organisationsinformation";
   }
 
-
+  @GetMapping("/kontaktOs")
+  public String kontaktOs(){
+    return "kontaktOs";
+  }
 
   @GetMapping("/forbrugerinformation")
   public String forbrugerInformation(){
